@@ -1,3 +1,3 @@
 #Files
 
-:w &lt;filename> write file
+```:w <filename>``` write file
