@@ -21,6 +21,7 @@ So we have to install Pathogen first:
 ```
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
 In ```~/.vim/.vimrc``` add:
 
@@ -67,7 +68,10 @@ Files can now be browsed using ```,f```.
 ```gg``` go to beginning of the file    
 ```G``` go to the end of the file     
 ```<n>gt``` switch tabs by number (n = number of tab)     
-```CTRL+w``` swtich between splits     
+```CTRL+w``` switch between splits     
+```/<text>``` find text
+```n``` after ```/``` find next search result
+```N``` after ```/``` find previous search result
 
 ##Selecting, copy/paste, formatting etc.
 ```V``` Visual Mode, now you can select parts of the file using arrow keys     
