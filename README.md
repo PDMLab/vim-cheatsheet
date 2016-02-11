@@ -7,6 +7,18 @@ First, install ```vim-gtk``` to make sure copy / paste between vim and and syste
 sudo apt-get install vim-gtk
 ```
 
+### Modes
+Vim has several modes.   
+```Normal``` mode is active after you opened vim (or a file using vim).    
+In normal mode you can not edit text, but you can execute commands as shown below.    
+
+```Insert``` mode allows you to edit text. You can activate insert mode by pressing ```i``` in normal mode.    
+You can exit insert mode by pressing ```ESC```
+
+```Visual````mode allows you to select text.    
+It can be activated by hitting ```V```.
+You can exit visual mode by pressing ```ESC```
+
 ### Configuration in ~/.vim/.vimrc
 ```set nocp``` enabling features which are not Vi compatible but really nice.    
 ```set number``` enable line numbers    
@@ -62,6 +74,9 @@ Files can now be browsed using ```,f```.
 ```:vnew``` create new file in vertically split window    
 ```:new``` create new file in horizontally split window    
 ```:tabedit <filename>``` open <filename> in new tab    
+```:q``` close file / vim
+```:q!``` close file / vim and discard changes
+```:x``` close file / vim and save changes
 
 ##Navigation
 ```gg``` go to beginning of the file    
