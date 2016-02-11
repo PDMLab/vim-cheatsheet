@@ -15,7 +15,7 @@ In normal mode you can not edit text, but you can execute commands as shown belo
 ```Insert``` mode allows you to edit text. You can activate insert mode by pressing ```i``` in normal mode.    
 You can exit insert mode by pressing ```ESC```
 
-```Visual````mode allows you to select text.    
+```Visual``` mode allows you to select text.    
 It can be activated by hitting ```V```.    
 You can exit visual mode by pressing ```ESC```
 
