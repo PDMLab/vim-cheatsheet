@@ -35,9 +35,11 @@ execute pathogen#infect()
 
 #### Installing FuzzyFinder
 
+```
 cd ~/.vim/bundle
 git clone git@github.com:vim-scripts/L9.git
 git clone git@github.com:vim-scripts/FuzzyFinder.git
+```
 
 #### Using FuzzyFinder
 
@@ -58,7 +60,7 @@ Files can now be browsed using ```,f```.
 ```:w <filename>``` write file using a new name (save as)     
 ```:w``` save current file    
 ```:vnew``` create new file in vertically split window    
-```:new````create new file in horizontally split window     
+```:new``` create new file in horizontally split window    
 ```:tabedit <filename>``` open <filename> in new tab    
 
 ##Navigation
