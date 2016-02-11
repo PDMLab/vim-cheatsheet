@@ -47,7 +47,7 @@ git clone git@github.com:vim-scripts/FuzzyFinder.git
 ```CTRL+Enter``` opens a file in a new split     
 ```CTRL+L``` opens a file in a new tab    
 
-As a short cut to open ```FuzzyFinder``` file explorer in current folder, add this to ```~/.vim/.vimrc```:
+As a shortcut to open ```FuzzyFinder``` file explorer in current folder, add this to ```~/.vim/.vimrc```:
 
 ```
 map ,f :FufFile **/<CR> -> in .vimrc
