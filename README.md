@@ -16,7 +16,7 @@ In normal mode you can not edit text, but you can execute commands as shown belo
 You can exit insert mode by pressing ```ESC```
 
 ```Visual````mode allows you to select text.    
-It can be activated by hitting ```V```.
+It can be activated by hitting ```V```.    
 You can exit visual mode by pressing ```ESC```
 
 ### Configuration in ~/.vim/.vimrc
@@ -74,17 +74,17 @@ Files can now be browsed using ```,f```.
 ```:vnew``` create new file in vertically split window    
 ```:new``` create new file in horizontally split window    
 ```:tabedit <filename>``` open <filename> in new tab    
-```:q``` close file / vim
-```:q!``` close file / vim and discard changes
-```:x``` close file / vim and save changes
+```:q``` close file / vim    
+```:q!``` close file / vim and discard changes    
+```:x``` close file / vim and save changes     
 
 ##Navigation
 ```gg``` go to beginning of the file    
 ```G``` go to the end of the file     
 ```<n>gt``` switch tabs by number (n = number of tab)     
 ```CTRL+w``` switch between splits     
-```/<text>``` find text
-```n``` after ```/``` find next search result
+```/<text>``` find text    
+```n``` after ```/``` find next search result    
 ```N``` after ```/``` find previous search result
 
 ##Selecting, copy/paste, formatting etc.
