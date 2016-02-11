@@ -31,7 +31,7 @@ execute pathogen#infect()
 
 ### FuzzyFinder
 
-```FuzzyFinder``` is a File Explorer for vim.
+[FuzzyFinder](http://www.vim.org/scripts/script.php?script_id=1984) is a File Explorer for vim.
 
 #### Installing FuzzyFinder
 
