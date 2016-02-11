@@ -8,7 +8,7 @@ sudo apt-get install vim-gtk
 ```
 
 ### Configuration in ~/.vim/.vimrc
-```set nocp``` enabling features which are not Vi compatible but really nice. 
+```set nocp``` enabling features which are not Vi compatible but really nice.    
 ```set number``` enable line numbers
 ```syntax on``` enbale syntax highlighting
 ```filetype plugin indent on``` language-dependent indenting
