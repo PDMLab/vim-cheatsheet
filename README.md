@@ -29,7 +29,6 @@ In ```~/.vim/.vimrc``` add:
 execute pathogen#infect()
 ```
 
-```
 ### FuzzyFinder
 
 ```FuzzyFinder``` is a File Explorer for vim.
@@ -78,7 +77,7 @@ Files can now be browsed using ```,f```.
 ```ggVG``` select all     
 ```y``` copy selection to buffer     
 ```p``` paste buffer     
-```d``` delete current line    
+```dd``` delete current line    
 ```u``` undo    
 ```"+p``` paste from system clipboard    
 ```"+y``` copy to system clipboard     
