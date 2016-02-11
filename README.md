@@ -62,7 +62,7 @@ git clone git@github.com:vim-scripts/FuzzyFinder.git
 As a shortcut to open ```FuzzyFinder``` file explorer in current folder, add this to ```~/.vim/.vimrc```:
 
 ```
-map ,f :FufFile **/<CR> -> in .vimrc
+map ,f :FufFile **/<CR> 
 ```
 
 Files can now be browsed using ```,f```.
